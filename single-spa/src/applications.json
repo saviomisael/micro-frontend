@@ -1,0 +1,40 @@
+{
+  "applications": [
+    {
+      "name": "@sm/react-single",
+      "package": "@sm/react-single",
+      "activeWhen": "/react-single",
+      "exact": true
+    },
+    {
+      "name": "@sm/react-multiple",
+      "package": "@sm/react-multiple",
+      "activeWhen": "/react-multiple",
+      "exact": false
+    },
+    {
+      "name": "@sm/react-lazy",
+      "package": "@sm/react-lazy",
+      "activeWhen": "/react-lazy",
+      "exact": false
+    },
+    {
+      "name": "@sm/react-route",
+      "package": "@sm/react-route",
+      "activeWhen": "/react-route",
+      "exact": true
+    },
+    {
+      "name": "@sm/react-header",
+      "package": "@sm/react-header",
+      "activeWhen": "/",
+      "exact": false
+    },
+    {
+      "name": "@single-spa/welcome",
+      "package": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+      "activeWhen": "/",
+      "exact": true
+    }
+  ]
+}
